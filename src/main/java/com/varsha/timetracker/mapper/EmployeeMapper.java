@@ -4,7 +4,7 @@ import com.varsha.timetracker.dto.EmployeeDto;
 import com.varsha.timetracker.entity.Employee;
 
 public class EmployeeMapper {
-    public static EmployeeDto mapToEmployeeDo(Employee employee){
+    public static EmployeeDto mapToEmployeeDto(Employee employee){
         return new EmployeeDto(
                 employee.getId(),
                 employee.getFirstName(),
